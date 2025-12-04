@@ -31,7 +31,9 @@ video = """
 https://anydhrpvfenefacuoarv.supabase.co/storage/v1/object/sign/video/WhatsApp%20Video%202025-11-28%20at%2018.47.05_1ca38e99.mp4?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV81ODFiOTg5ZS1mM2ZkLTQ3NTktYTAxMS1iNmU4ZmNjMmJmNDkiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ2aWRlby9XaGF0c0FwcCBWaWRlbyAyMDI1LTExLTI4IGF0IDE4LjQ3LjA1XzFjYTM4ZTk5Lm1wNCIsImlhdCI6MTc2NDg3MDMwNSwiZXhwIjoxNzk2NDA2MzA1fQ.VAZWRNr1307MbmPYWBEb0lFcp71Xd19M6PSWsqFqiWs
 """
 
-st.markdown(text)
+col1, col2 = st.columns([2,1])
 
-st.video(video)
+col1.markdown(text)
+
+col2.video(video)
 
