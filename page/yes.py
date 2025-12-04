@@ -33,5 +33,5 @@ video = """
 
 st.markdown(text)
 
-st.markdown(video,unsafe_allow_html=True,)
+st.video(video)
 
