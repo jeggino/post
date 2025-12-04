@@ -46,9 +46,9 @@ page_1 = st.Page("page/yes.py", title="Navigatie",icon=":material/explore:" )
 
 
 #---APP---
-IMAGE = "image/logo.png"
-IMAGE_2 ="image/menu.jpg"
-st.logo(IMAGE,  link=None, size="large",icon_image=IMAGE)
+# IMAGE = "image/logo.png"
+# IMAGE_2 ="image/menu.jpg"
+# st.logo(IMAGE,  link=None, size="large",icon_image=IMAGE)
 
 
 pg = st.navigation([page_1],position="top",)
