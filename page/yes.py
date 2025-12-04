@@ -1,7 +1,7 @@
 import streamlit as st
 
 h_1 = """
-...Let’s start from far, far away…🤓
+Let’s start from far, far away…🤓
 """
 
 par_1 = """
@@ -25,7 +25,7 @@ The video shows a quite big maternity roost (75 specimens) of Pipistrellus pipis
 """
 
 h_3 = """
-and now it's time for my naive hypothesis…☺️☺️
+Now, it's time for my naive hypothesis…☺️☺️
 """
 
 par_3 = """
@@ -40,14 +40,13 @@ video_1 = """
 https://anydhrpvfenefacuoarv.supabase.co/storage/v1/object/sign/video/WhatsApp%20Video%202025-11-28%20at%2018.47.05_1ca38e99.mp4?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV81ODFiOTg5ZS1mM2ZkLTQ3NTktYTAxMS1iNmU4ZmNjMmJmNDkiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ2aWRlby9XaGF0c0FwcCBWaWRlbyAyMDI1LTExLTI4IGF0IDE4LjQ3LjA1XzFjYTM4ZTk5Lm1wNCIsImlhdCI6MTc2NDg3MDMwNSwiZXhwIjoxNzk2NDA2MzA1fQ.VAZWRNr1307MbmPYWBEb0lFcp71Xd19M6PSWsqFqiWs
 """
 
-# col1, col2 = st.columns([2,1],vertical_alignment="bottom",border=True)
 
-st.header(h_1, anchor=None, help=None, divider=False, width="stretch", text_alignment="center")
+st.header(h_1, anchor=None, help=None, divider='blue', width="stretch", text_alignment="left")
 st.markdown(par_1,unsafe_allow_html=True,text_alignment ='justify')
-st.header(h_2, anchor=None, help=None, divider=False, width="stretch", text_alignment="center")
+st.header(h_2, anchor=None, help=None, divider='blue', width="stretch", text_alignment="left")
 st.markdown(par_2,unsafe_allow_html=True,text_alignment ='justify')
 st.video(video_1)
-st.header(h_3, anchor=None, help=None, divider=False, width="stretch", text_alignment="center")
+st.header(h_3, anchor=None, help=None, divider='blue', width="stretch", text_alignment="left")
 st.markdown(par_3,unsafe_allow_html=True,text_alignment ='justify')
 
 
