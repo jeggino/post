@@ -51,7 +51,7 @@ page_1 = st.Page("page/yes.py", title="Navigatie",icon=":material/explore:" )
 # st.logo(IMAGE,  link=None, size="large",icon_image=IMAGE)
 
 
-pg = st.navigation([page_1],position="top",)
+pg = st.navigation([page_1],position="sidebar",)
 
 
 
