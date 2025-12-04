@@ -27,5 +27,11 @@ Wouldn't it be helpful to implement heat night vision cameras, maybe installed o
 Thanks for reading! I know this could be boring ✌️✌️...your comments are very appreciated.
 """
 
+video = """
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/67492897@N07/54963893894/in/dateposted/" title="WhatsApp Video 2025-11-28 at 18.47.05_1ca38e99"><img src="https://combo.staticflickr.com/pw/images/en-us/video-processing/n.png" width="320" height="240" alt="WhatsApp Video 2025-11-28 at 18.47.05_1ca38e99"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+"""
+
 st.markdown(text)
+
+st.markdown(video,unsafe_allow_html=True,)
 
