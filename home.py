@@ -42,6 +42,7 @@ controller = CookieController()
 
 #---APP---
 page_1 = st.Page("page/yes.py", title="Navigatie",icon=":material/explore:" )
+page_1 = st.Page("page/yes_2.py", title="Navigatie",icon=":material/explore:" )
 
 
 
@@ -51,7 +52,7 @@ page_1 = st.Page("page/yes.py", title="Navigatie",icon=":material/explore:" )
 # st.logo(IMAGE,  link=None, size="large",icon_image=IMAGE)
 
 
-pg = st.navigation([page_1],position="sidebar",)
+pg = st.navigation([page_1,page_2],position="sidebar",)
 
 
 
