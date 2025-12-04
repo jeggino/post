@@ -64,7 +64,7 @@ pages = {
 # st.logo(IMAGE,  link=None, size="large",icon_image=IMAGE)
 
 
-pg = st.navigation(pages,position="top",expanded =True)
+pg = st.navigation(pages,position="top")
 
 
 
