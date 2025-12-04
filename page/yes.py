@@ -1,4 +1,4 @@
-import streamlit
+import streamlit as st
 
 text = """
 Finally, I have a bit of time to write something instead of just posting photos...
