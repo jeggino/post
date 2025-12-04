@@ -53,19 +53,13 @@ pages = {
         page_2,
     ],
     "Resources": [
-        page_1,
         page_2,
+        page_1,
     ],
 }
 
-#---APP---
-# IMAGE = "image/logo.png"
-# IMAGE_2 ="image/menu.jpg"
-# st.logo(IMAGE,  link=None, size="large",icon_image=IMAGE)
-
-
-pg = st.navigation(pages,position="top")
-
-
-
+pg = st.navigation(pages, position="top")
 pg.run()
+
+
+
