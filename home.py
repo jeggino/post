@@ -35,10 +35,6 @@ rows_users = supabase.table("df_users").select("*").execute()
 df_references = pd.DataFrame(rows_users.data)
 
 
-controller = CookieController()
-
-
-
 
 #---APP---
 
@@ -50,11 +46,10 @@ page_2 = st.Page("page/yes_2.py", title="Navigatie",icon=":material/explore:" )
 pages = {
     "Your account": [
         page_1,
-        page_2,
+
     ],
     "Resources": [
         page_2,
-        page_1,
     ],
 }
 
