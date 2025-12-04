@@ -28,7 +28,7 @@ Thanks for reading! I know this could be boring ✌️✌️...your comments are
 """
 
 video = """
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/67492897@N07/54963893894/in/dateposted/" title="WhatsApp Video 2025-11-28 at 18.47.05_1ca38e99"><img src="https://live.staticflickr.com/31337/54963893894_3ab9ee2442.jpg" width="480" height="360" alt="WhatsApp Video 2025-11-28 at 18.47.05_1ca38e99"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+https://anydhrpvfenefacuoarv.supabase.co/storage/v1/object/sign/video/WhatsApp%20Video%202025-11-28%20at%2018.47.05_1ca38e99.mp4?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV81ODFiOTg5ZS1mM2ZkLTQ3NTktYTAxMS1iNmU4ZmNjMmJmNDkiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ2aWRlby9XaGF0c0FwcCBWaWRlbyAyMDI1LTExLTI4IGF0IDE4LjQ3LjA1XzFjYTM4ZTk5Lm1wNCIsImlhdCI6MTc2NDg3MDMwNSwiZXhwIjoxNzk2NDA2MzA1fQ.VAZWRNr1307MbmPYWBEb0lFcp71Xd19M6PSWsqFqiWs
 """
 
 st.markdown(text)
