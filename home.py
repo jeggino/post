@@ -52,7 +52,7 @@ page_2 = st.Page("page/yes_2.py", title="Navigatie",icon=":material/explore:" )
 # st.logo(IMAGE,  link=None, size="large",icon_image=IMAGE)
 
 
-pg = st.navigation([page_1,page_2],position="sidebar",)
+pg = st.navigation([page_1,page_2],position="top",)
 
 
 
