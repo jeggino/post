@@ -42,7 +42,7 @@ controller = CookieController()
 
 #---APP---
 page_1 = st.Page("page/yes.py", title="Navigatie",icon=":material/explore:" )
-page_1 = st.Page("page/yes_2.py", title="Navigatie",icon=":material/explore:" )
+page_2 = st.Page("page/yes_2.py", title="Navigatie",icon=":material/explore:" )
 
 
 
