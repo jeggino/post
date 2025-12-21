@@ -7,7 +7,7 @@ on:
   schedule:
     # Runs every two minutes
     # Note: Use UTC time for schedules
-    - cron: '*/2 * * * *'
+    - cron: '*/1 * * * *'
 
 
 
