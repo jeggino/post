@@ -44,11 +44,11 @@ page_1 = st.Page("page/web.py", title="Web",icon=":material/language:" )
 page_2 = st.Page("page/areas.py", title="Gebieden",icon=":material/map:" )
 
 pages = {
-    "Your account": [
+    "Informatie": [
         page_1,
 
     ],
-    "Resources": [
+    "Bijlagen": [
         page_2,
     ],
 }
