@@ -52,7 +52,7 @@ st.markdown(par_3,unsafe_allow_html=True,text_alignment ='justify')
 "---"
 
 st.html(
-    files/BUCK_TK_Fietsroutes.html
+    "post/files/BUCK_TK_Fietsroutes.html"
 )
 
 
