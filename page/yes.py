@@ -49,5 +49,9 @@ st.video(video_1)
 st.header(h_3, anchor=None, help=None, divider='blue', width="stretch", text_alignment="left")
 st.markdown(par_3,unsafe_allow_html=True,text_alignment ='justify')
 
+st.html(
+    "<p><span style='text-decoration: line-through double red;'>Oops</span>!</p>"
+)
+
 
 
