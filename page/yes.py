@@ -52,7 +52,7 @@ st.markdown(par_3,unsafe_allow_html=True,text_alignment ='justify')
 "---"
 
 st.html(
-    "<p><span style='text-decoration: line-through double red;'>Oops</span>!</p>"
+    files/BUCK_TK_Fietsroutes.html
 )
 
 
