@@ -7,12 +7,6 @@ components.iframe("https://www.elskenecologie.nl/contact-elsken-ecologie-nh-ters
 
 
 
-# Read the HTML file
-with open('files/BUCK_TK_Fietsroutes.html', 'r') as file:
-    html_content = file.read()
-
-# Render the HTML
-components.html(html_content, height=600)
 
 
 
