@@ -1,12 +1,9 @@
 import streamlit as st
 import streamlit.components.v1 as components
 
+import streamlit.components.v1 as components
 
-st.html(
-    https://www.elskenecologie.nl/contact-elsken-ecologie-nh-terschelling/
-)
-
-"---"
+components.iframe("https://www.elskenecologie.nl/contact-elsken-ecologie-nh-terschelling/")
 
 
 
