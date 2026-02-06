@@ -40,8 +40,8 @@ df_references = pd.DataFrame(rows_users.data)
 
 
 
-page_1 = st.Page("page/yes.py", title="Navigatie",icon=":material/explore:" )
-page_2 = st.Page("page/yes_2.py", title="Navigatie",icon=":material/explore:" )
+page_1 = st.Page("page/web.py", title="Web",icon=":material/web:" )
+page_2 = st.Page("page/areas.py", title="Gebieden",icon=":material/polygon:" )
 
 pages = {
     "Your account": [
